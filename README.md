@@ -12,10 +12,14 @@
 
 5. ```go mod edit -replace <module-name>=<local-module-path>``` :  _go mod edit -replace example.com/greetings=../greetings_
 
-6. ```go work init``` : _go work init ./hello_
+6. ```go build``` :  _to compile the code into an executable_
 
-7. ```go work use [-r] [dir]``` : _go work use ./example_
+7. ```go install``` : _to compile and install package (move file executable into Go PATH bin)_
 
-8. ```go work edit``` : _edits the go.work file similarly to go mod edit_
+8. ```go work init``` : _go work init ./hello_
 
-9. ```go work sync``` : _syncs dependencies from the workspace’s build list into each of the workspace modules._
+9. ```go work use [-r] [dir]``` : _go work use ./example_
+
+10. ```go work edit``` : _edits the go.work file similarly to go mod edit_
+
+11. ```go work sync``` : _syncs dependencies from the workspace’s build list into each of the workspace modules._
