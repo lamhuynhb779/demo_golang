@@ -57,4 +57,6 @@ func main() {
 	StructExample()
 	ArrayExample()
 	SliceExample()
+	MapExample()
+	FunctionValuesExample()
 }
