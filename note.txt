@@ -1,5 +1,0 @@
-go mod tidy [-v] : download all necessary dependencies, remove unused dependencies, upgrade version dependencies
-
-go get [-u] : updates the requirements listed in your go.mod file. It also ensures that those requirements are self-consistent, and adds new requirements as needed so that every package imported by the packages you named on the command line is provided by some module in your requirements.
-
-go mod download : does not add new requirements or update existing requirements, It only downloads either the specific module versions you've requested (if you requested specific versions), or the versions of modules that appear in your requirements
